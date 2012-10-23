@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="@drawable/common_index_bg"
+    android:orientation="vertical" >
+    
+	<ImageView
+	    android:id="@+id/common_logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="685dp"
+	    android:layout_marginTop="80dp"
+	    android:src="@drawable/common_logo">
+	    
+	</ImageView>
+	
+	<TextView 
+	    android:text="©2012 版权所有"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#ff000000"
+	    android:textSize="18dp"
+	    android:layout_below="@id/common_logo"
+	    android:layout_alignLeft="@id/common_logo"/>
+	
+	<ImageView
+	    android:id="@+id/pageleft"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/common_index_pageleft"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginTop="327dp">
+	</ImageView>
+	<RelativeLayout
+	    android:id="@+id/bgofword"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/common_index_opacity"
+	    android:layout_marginTop="587dp"
+	    android:layout_marginLeft="451dp"
+	    android:padding="20dp"
+	    android:orientation="vertical">
+	    
+		<TextView
+		    android:id="@+id/bigsizeword"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="成熟，就是用微笑来面对一切"
+		    android:textSize="36dp"
+		    android:textColor="#ff000000"
+		    android:textStyle="bold"></TextView>
+		<TextView
+		    android:id="@+id/smallsizeword"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="微笑是击碎障碍的法宝，没有什么是不可能的"
+		    android:textSize="21dp"
+		    android:layout_margin="12dp"
+		    android:textColor="#ff000000"
+		    android:layout_below="@id/bigsizeword"
+		    android:textStyle="bold"></TextView>
+		<ImageView
+		    android:id="@+id/bluestar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/bluestar"
+		    android:layout_toRightOf="@id/smallsizeword"
+		    android:layout_alignTop="@id/smallsizeword">
+		    
+		</ImageView>
+	</RelativeLayout>
+	    
+	
+</RelativeLayout>

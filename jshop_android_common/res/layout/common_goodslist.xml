@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <ImageView
+        android:id="@+id/logo_goodslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/common_logo_inwhitebg" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/qrcode_goodslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/qrcodedemo" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/adv_goodslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="412dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/advpic" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/tack_goodslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="845dp"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/thumbtack" >
+    </ImageView>
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="883dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/ovalfortable"
+        android:gravity="center"
+        android:text="此刻"
+        android:textSize="12dp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/cup_goodslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="927dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/hotcup" >
+    </ImageView>
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="977dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/ovalfortable"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="12dp" >
+    </TextView>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="980dp"
+        android:layout_height="550dp"
+        android:layout_alignLeft="@+id/logo_goodslist"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/tack_goodslist"
+        android:numColumns="4" >
+
+    </GridView>
+
+</RelativeLayout>

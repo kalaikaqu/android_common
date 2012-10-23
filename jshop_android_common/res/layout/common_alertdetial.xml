@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640dp"
+    android:layout_height="650dp"
+    android:background="@drawable/alertbgwithconer"
+    android:padding="32dp">
+    
+    <ImageView
+        android:id="@+id/detail_coffeeimage"        
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/goodsdemo">
+        
+    </ImageView>
+    
+    <TextView 
+        android:id="@+id/detail_coffeename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="咖啡饮品一"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/detail_coffeeimage"
+        android:layout_marginLeft="32dp">
+        
+    </TextView>
+    "
+	<TextView 
+        android:id="@+id/detail_goodsdiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="优惠中,买三送一哦..."
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/detail_coffeeimage"
+        android:layout_below="@id/detail_coffeename"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="32dp">        
+    </TextView>
+    
+	<ImageView
+	    android:id="@+id/detail_coffeeqrcode" 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qrcodedemo"
+        android:layout_toRightOf="@id/detail_coffeeimage"
+        android:layout_alignBottom="@id/detail_coffeeimage"
+        android:layout_marginLeft="32dp"/>
+	
+	<TextView 
+	    android:id="@+id/detail_plus"
+	    android:text="+"
+	    android:textSize="30dp"
+	    android:layout_width="36dp"
+	    android:layout_height="36dp"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:background="@drawable/ovalfortable"
+	    android:layout_toRightOf="@id/detail_coffeename"
+	    android:layout_marginLeft="24dp">
+	    
+	</TextView>
+    
+	<TextView 
+	    android:id="@+id/detail_minus"
+	    android:text="-"
+	    android:textSize="30dp"
+	    android:layout_width="36dp"
+	    android:layout_height="36dp"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:background="@drawable/ovalfortable"
+	    android:layout_toRightOf="@id/detail_plus"
+	    android:layout_marginLeft="5dp">
+	    
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/detail_singlecount"
+	    android:text="已选:4个"
+	    android:textColor="#ff444444"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="12dp"
+	    android:layout_marginTop="12dp"
+	    android:layout_marginLeft="12dp"
+	    android:layout_toRightOf="@id/detail_minus"/>
+	
+	<LinearLayout
+	    android:id="@+id/gorgeous_splitline" 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#ff444444"
+	    android:layout_below="@id/detail_coffeeimage"
+	    android:layout_marginTop="32dp">
+	    
+	</LinearLayout>
+	
+	<TextView
+	    android:id="@+id/detail_goodsdetail"
+		android:text="20世纪初期，意大利人阿奇布夏发明蒸汽压力咖啡机的同时，也发展出了卡布奇诺咖啡。卡布奇诺是一种加入以同量的意大利特浓咖啡和蒸汽泡沫牛奶相混合的意大利咖啡。此时咖啡的颜色，就像卡布奇诺教会的修士在深褐色的外衣上覆上一条头巾一样，咖啡因此得名。传统的卡布奇诺咖啡是三分之一浓缩咖啡，三分之一蒸汽牛奶和三分之一泡沫牛奶。"
+		android:textColor="@color/black"
+		android:textSize="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/gorgeous_splitline"		
+		android:layout_marginTop="32dp">
+	    
+	</TextView>
+	
+	<ImageView
+	    android:id="@+id/detail_adv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/advpic"
+	    android:layout_below="@id/detail_goodsdetail"
+	    android:layout_marginTop="64dp">
+	    
+	</ImageView>
+	    
+	
+		
+</RelativeLayout>
+    
